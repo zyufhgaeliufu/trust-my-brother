@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Info & Download</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: monospace;
+      text-align: center;
+      padding-top: 100px;
+    }
+    button {
+      margin: 20px;
+      font-size: 24px;
+      padding: 20px 40px;
+      cursor: pointer;
+      border-radius: 12px;
+      border: 2px solid #00ff00;
+      background: black;
+      color: #00ff00;
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      background: #00ff00;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Choose an option</h1>
+  <button onclick="window.open('info.html', '_blank')">See Info</button>
+  <button onclick="window.location.href='fake_installer.html'">Download</button>
+</body>
+</html>
